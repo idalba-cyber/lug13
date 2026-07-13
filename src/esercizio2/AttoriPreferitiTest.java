@@ -16,7 +16,8 @@ public class AttoriPreferitiTest {
 		mieiAttori.stampaLista();
 		
 		mieiAttori.Attori.remove(0);
-		mieiAttori.Attori.remove(3);
+		
+		mieiAttori.Attori.add(1, "Anthony Hopkins");
 		
 		mieiAttori.stampaLista();
 		
