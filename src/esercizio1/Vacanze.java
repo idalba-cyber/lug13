@@ -20,10 +20,10 @@ public class Vacanze {
 		else if(anniDiServizio<1) {
 			System.out.println(giorniVacanze[0]);
 		} 
-		else if (anniDiServizio==1 || anniDiServizio==3) {
+		else if (anniDiServizio>=1 && anniDiServizio<=3) {
 			System.out.println(giorniVacanze[1]);
 		}
-		else if (anniDiServizio==4 || anniDiServizio==5) {
+		else if (anniDiServizio>=4 && anniDiServizio<=5) {
 			System.out.println(giorniVacanze[2]);
 		}
 		else if (anniDiServizio>5) {

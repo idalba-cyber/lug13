@@ -12,6 +12,8 @@ public class VacanzeTest {
 	mieVacanze.mostraGiorniVacanze(); 
 	mieVacanze.anniDiServizio = -10; 
 	mieVacanze.mostraGiorniVacanze(); 
+	mieVacanze.anniDiServizio = 2; 
+	mieVacanze.mostraGiorniVacanze();
 	} 
 
 }
