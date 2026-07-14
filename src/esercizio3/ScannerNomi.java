@@ -26,7 +26,6 @@ public class ScannerNomi{
          }
       }
     
-   
     public void stampaNomi() {
     	
     	System.out.println("\nElenco Nomi: ");

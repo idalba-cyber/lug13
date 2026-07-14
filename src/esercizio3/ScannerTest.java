@@ -10,4 +10,4 @@ public class ScannerTest {
 	        nome.stampaNomi();
 	        
 	    }
-}
+} 
