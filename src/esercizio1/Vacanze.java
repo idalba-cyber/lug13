@@ -16,7 +16,7 @@ public class Vacanze {
 	public void mostraGiorniVacanze() {
 		if (anniDiServizio<0) {
 			System.out.println("Dato errato");
-		}
+		} /*
 		else if(anniDiServizio<1) {
 			System.out.println(giorniVacanze[0]);
 		} 
@@ -28,6 +28,13 @@ public class Vacanze {
 		}
 		else {
 			System.out.println(giorniVacanze[3]);
+		} */
+		else {
+		//con OPERATORE CONDIZIONALE TERNARIO ?:
+			int i =(anniDiServizio < 1) ? 0 : (anniDiServizio <= 3) ? 1 : (anniDiServizio <= 5) ? 2 : 3;
+			System.out.println(giorniVacanze[i]);
 		}
+	
 	}
-}
+} 
+
