@@ -15,6 +15,6 @@ public class VacanzeTest {
 	mieVacanze.anniDiServizio = 2; 
 	mieVacanze.mostraGiorniVacanze();
 	} 
- 
+  
 }
  

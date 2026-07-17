@@ -22,9 +22,9 @@ public class Vacanze {
 			System.out.println("Dato errato");
 			return;
 		} 
-		
+		 
 		int i= anniDiServizio; 
-		
+		 
 		if (i < 1) {
 		    i = 0;
 		} 
