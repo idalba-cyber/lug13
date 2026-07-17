@@ -2,39 +2,36 @@ package esercizio1;
 
 public class Vacanze {
 	public int anniDiServizio;
-	int[] giorniVacanze = new int[4];
+	int[] giorniVacanze = new int[7];
 	
 	public void setVacanze() {
 		
-		giorniVacanze[0] = 10; 
-		giorniVacanze[1] = 15;
-		giorniVacanze[2] = 20;
-		giorniVacanze[3] = 25;
+		 giorniVacanze[0] = 10;  
+	     giorniVacanze[1] = 15;  
+	     giorniVacanze[2] = 15; 
+	     giorniVacanze[3] = 15; 
+	     giorniVacanze[4] = 20;  
+	     giorniVacanze[5] = 20; 
+	     giorniVacanze[6] = 25; 
 	}
 	
 	
 	public void mostraGiorniVacanze() {
+		
 		if (anniDiServizio<0) {
 			System.out.println("Dato errato");
-		} /*
-		else if(anniDiServizio<1) {
-			System.out.println(giorniVacanze[0]);
+			return;
 		} 
-		else if (anniDiServizio<= 3) {
-			System.out.println(giorniVacanze[1]);
+		
+		int i= anniDiServizio; 
+		
+		if (i < 1) {
+		    i = 0;
+		} 
+		else if (i > 5) {
+		    i = 6;
 		}
-		else if (anniDiServizio<=5) {
-			System.out.println(giorniVacanze[2]);
-		}
-		else {
-			System.out.println(giorniVacanze[3]);
-		} */
-		else {
-		//con OPERATORE CONDIZIONALE TERNARIO ?:
-			int i =(anniDiServizio < 1) ? 0 : (anniDiServizio <= 3) ? 1 : (anniDiServizio <= 5) ? 2 : 3;
-			System.out.println(giorniVacanze[i]);
-		}
-	
-	}
+	   
+		System.out.println("Con " + anniDiServizio + " anni di servizio hai: " + giorniVacanze[i] + " giorni di vacanza." ); 
+	 }
 } 
-
